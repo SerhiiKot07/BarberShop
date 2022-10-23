@@ -1,0 +1,217 @@
+:root {
+	--primary-text-color: #ffffff;
+	--secondary-text-color: #303030;
+}
+
+body {
+	background-color: var(--primary-text-color);
+	font-family: "Open Sans", Verdana, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+.link:hover,
+.link:focus {
+	color: #ff6c00;
+}
+
+/* ------- Header ------- */
+
+.header,
+.hero,
+.prices,
+.contacts {
+	background-color: aquamarine;
+}
+.nav-link {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+
+	color: var(--primary-text-color);
+}
+
+button {
+	font-family: inherit;
+	color: var(--primary-text-color);
+	background-color: transparent;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+button:hover,
+button:focus {
+	background-color: #ff6c00;
+}
+
+/* ------- Hero ------- */
+.hero-link {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.2em;
+	color: var(--secondary-text-color);
+}
+
+.pre-title {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	text-transform: uppercase;
+	color: var(--secondary-text-color);
+}
+.hero .pre-title {
+	color: rgba(157, 164, 189, 0.6);
+}
+
+.title {
+	font-family: "Raleway", Verdana, sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.17;
+	letter-spacing: 0.05em;
+	color: var(--secondary-text-color);
+}
+.hero .title {
+	font-size: 72px;
+	line-height: 1.18;
+	color: var(--primary-text-color);
+}
+
+.hero .description {
+	color: #9da4bd;
+}
+
+/* ------- About ------- */
+
+.description {
+	color: #555555;
+}
+.secondary-description {
+	font-size: 14px;
+	line-height: 1.86;
+	color: #555555;
+}
+.about-button {
+	color: var(--secondary-text-color);
+}
+.about-button:hover,
+.about-button:focus {
+	color: var(--primary-text-color);
+}
+
+/* ------- Послуги та ціни ------- */
+
+.prices .pre-title {
+	color: rgba(157, 164, 189, 0.6);
+}
+.prices .title {
+	color: var(--primary-text-color);
+}
+
+.price-list {
+	color: #9da4bd;
+}
+
+/*  ------- Чому ми ------- */
+.number-background {
+	background-color: #f7f7f7;
+}
+.number {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.05em;
+
+	color: var(--secondary-text-color);
+}
+.number-description {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+}
+
+/* ------- Наші майстри ------- */
+.our-barbers {
+	background-color: #f7f7f7;
+}
+.barbers-name {
+	line-height: 1.39;
+	text-align: center;
+	color: var(--secondary-text-color);
+}
+.barbers-name + p {
+	font-size: 14px;
+	line-height: 1.36;
+	text-align: center;
+	color: #ff6c00;
+}
+
+/* ------- Portfolio ------- */
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+/* ------- Contacts ------- */
+.online-booking {
+	background-color: #191c26;
+}
+.online-booking .title,
+.contacts .title {
+	color: var(--primary-text-color);
+}
+
+.address,
+.tel,
+.mail,
+.hours {
+	font-style: normal;
+	color: #9da4bd;
+}
+.address {
+	font-weight: 700;
+}
+.mail {
+	text-decoration-line: underline;
+}
+.working-hours {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	text-transform: uppercase;
+	color: var(--primary-text-color);
+}
+
+/* ------- Footer ------- */
+
+.footer {
+	background-color: #f7f7f7;
+}
+.copyright {
+	font-size: 11px;
+	line-height: 1.36;
+	color: #9da4bd;
+}
